@@ -53,3 +53,8 @@ Sem ele, o react pode confundir na hora de identificar qual elemento sofreu alte
 # Typescript
 
 O Typescript é um Superset do Javascript; isto é, ele adiciona algumas novas features na linguagem do javascript, como por exemplo a tipagem estática, que nos permite definir o tipo da variável.
+
+# React Dev Tools
+
+É uma extensão onde podemos 'monitorar', em desenvolvimento, os componentes escritos em react.
+Podemos fazer o monitoramento de quando o componente é renderizado, conseguimos ver qual site usa React, ver os componentes renderizados pelo React, entre outros.

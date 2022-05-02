@@ -1,4 +1,10 @@
-export function RepositoryItem(props) {
+import { IRepo } from "./RepositoryList";
+
+interface IRepositoryItemProps {
+  repository: IRepo;
+}
+
+export function RepositoryItem(props: IRepositoryItemProps) {
   return (
     <li>
       <strong>{props?.repository?.name ?? "Default"}</strong>
